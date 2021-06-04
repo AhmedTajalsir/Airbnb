@@ -1,0 +1,42 @@
+.banner{
+    position: relative;
+    height: 50vh;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5cab561c797f7475f98c2f5e/1559666028788-FTHPRWXTXIRG96LZF2T5/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/home-banner.jpg?format=2500w") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+.banner__searchButton{
+    background-color: white !important ;
+    font-weight: 600 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+.banner__info{
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    width: 300px;   
+}
+.banner__info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.banner__info > button:hover{
+    background-color: white;
+    color:  #ff7779;
+}
+.banner__info > h5{
+    margin-top: 10px;
+}
